@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "mongoose": "^6.8.0"
+  },
+  "name": "jewelivery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently --kill-others \"cd back & npm start\" \"cd jewelivery & npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Proyecto UTN"
+}
+
+
+//  "repository": {
+  //"type": "git",
+  //"url": "git+https://github.com/AgustinaMiceli/jewelivery.git"
+//}
